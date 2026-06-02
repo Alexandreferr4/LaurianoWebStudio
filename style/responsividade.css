@@ -145,4 +145,7 @@
         align-items: center;
         gap: 20px;
     }
+    .footer-bottom {
+        width: 100%;
+    }
 }
