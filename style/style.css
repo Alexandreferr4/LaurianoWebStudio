@@ -1,0 +1,401 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgba(255, 255, 255, 0.9);
+}
+body {
+background: linear-gradient(180deg,rgba(1, 11, 27, 1) 28%, rgba(10, 47, 140, 1) 48%, rgba(1, 8, 22, 1) 100%);
+}
+
+p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.containerFlex{
+    display: flex;
+    width: 1500px;
+    max-width: 90%;
+    margin: auto;
+    align-items: center;
+}
+
+button {
+transition: all .3s ease;
+}
+
+button:hover {
+    transform: translateY(-2px);
+}
+
+.botaoPrimario {
+    background: linear-gradient(159deg,rgba(100, 5, 252, 1) 28%, rgba(20, 84, 248, 1) 68%, rgba(77, 59, 226, 1) 100%);    border: none;
+    padding: 20px 40px;
+    border-radius: 20px;
+    font-family: 'Clash Display', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.botaoSecundario {
+    background: rgba(255, 255, 255, 0.096);
+    border: none;
+    padding: 19px;
+    border-radius: 20px;
+    width: 62px;
+}
+
+.botaoSecundario:hover {
+    background: rgba(255, 255, 255, 0.2);
+    cursor: pointer;
+}
+
+/* Banner Inicial */
+
+#bannerInicial {
+    background-image: url("../img/Fundo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.containerInicial {
+    gap: 3%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.containerInicialEsquerda {
+    width: 48%;
+}
+
+.containerInicialDireito {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nomeLogo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+
+.logotipoLauriano {
+    width: 100px;
+    opacity: 0.9;
+    transition: all .3s ease;
+}
+
+.logotipoLauriano:hover{
+    opacity: 1;
+}
+
+.containerInicialEsquerda h1 {
+    font-size: 7.1vw;
+    color: #265997;
+}
+
+.containerInicialEsquerda h2 {
+    display:flex;
+    justify-content: center;
+    font-size: 1.4vw;
+    letter-spacing: 1.3vw;
+    font-weight: 400;
+    margin-top: -16px;
+}
+
+.containerInicialEsquerda p {
+    font-size: 18px;
+    padding: 28px 0px 36px;
+    line-height: 28px;
+}
+
+.containerInicialBotoes {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.containerInicialDireito iframe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: none;
+    border-radius: 32px;
+}
+
+.containerInicialDireito {
+    height: 100%;   
+}
+
+.botaoSeta img{
+    width: 20px;
+}
+
+/* Container Benefícios */
+
+.beneficios {
+    padding: 0px 0px 120px;
+}
+
+.containerBeneficios {
+    flex-wrap: wrap;
+    gap: 2%;
+    justify-content: center;
+}
+
+.containerBeneficios h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 4.3vw;
+    padding: 60px 0px 60px 0px;
+}
+
+.cards {
+    width: 31%;
+    background: linear-gradient(130deg,rgba(255, 255, 255, 0.183), rgba(255, 255, 255, 0.028));
+    padding: 28px 32px;
+    border-radius: 32px;
+    margin-bottom: 2%;
+    border: 2px solid rgba(255, 255, 255, 0.202);
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.cards h3 {
+    font-size: 32px;
+    font-weight: 500px;
+    margin-top: -8px;
+}
+
+.iconeAnimado {
+    margin-left: auto;
+    width: max-content;
+}
+
+/* Container Faixa */
+
+.faixa {
+        background: linear-gradient(159deg,rgba(100, 5, 252, 1) 28%, rgba(20, 84, 248, 1) 68%, rgba(77, 59, 226, 1) 100%);
+        border: none;
+        padding: 40px 0px;
+}
+
+.containerFaixa {
+    flex-direction: column;
+    text-align: start;
+}
+
+.containerFaixa h2 {
+    font-size: 4.3vw;
+}
+
+/* Container Mentalidade */
+
+.aprender {
+    padding:160px 0px;
+}
+.containerAprender{
+    align-items: start;
+    position: relative;
+    justify-content: space-between;
+    gap: 6%;
+}
+
+.containerAprenderEsquerda {
+    position: sticky;
+    top: 24vh;
+}
+
+.containerAprenderDireita {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4%;
+}
+
+.containerAprenderEsquerda h2 {
+    font-size: 4.3vw;
+}
+
+.containerAprenderEsquerda p {
+    padding: 20px 0px 40px;
+    
+}
+
+.containerAprenderDireita .cards {
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.containerAprenderDireita .cards h3 {
+    padding-bottom: 4px;
+}
+
+.iconeAnimadoDegrade {
+    width: max-content;
+    margin-left: auto;
+    background: linear-gradient(159deg,rgba(100, 5, 252, 1) 28%, rgba(20, 84, 248, 1) 68%, rgba(77, 59, 226, 1) 100%);    border: none;
+    padding: 12px;
+    border-radius: 24px;
+}
+
+/* FOOTER */
+
+.footer{
+    background: linear-gradient(130deg,rgba(255, 255, 255, 0.183), rgba(255, 255, 255, 0.028));
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px 10px 0px 0px;
+    border: 2px solid rgba(255, 255, 255, 0.202);
+    border-right: 0;
+    border-bottom: 0;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    width: 800px;
+    
+}
+
+.footer-col{
+    padding: 30px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: start;
+    gap: 20px;
+}
+
+.social-icons{
+    display: flex;
+    gap: 20px;
+}
+
+/* PARTE FINAL */
+.footer-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 35px 35px 35px 35px;
+    font-size: 13px;
+}
+
+
+
+
+/* animação */
+/* ainda não funciona no Firefox e Safari */
+.fadeTexto {
+    animation: fadeTexto;
+    animation-timeline: view(auto auto);}
+
+@keyframes fadeTexto {
+    0%, 75% {
+        opacity: 1;
+        filter:blur(0px);
+    }95% {
+        opacity: 0.5;
+        filter:blur(10px);
+
+    }
+    100% {
+        opacity: 0;
+        filter:blur(20px);
+    }
+}
+
+iframe {
+    animation: moveVideo;
+    animation-timeline: view();
+}
+
+@keyframes moveVideo {
+    0% {
+        opacity: 0;
+    }
+    40%, 45% {
+        opacity: 0.5;
+    }
+    50%, 60% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(70px, -200px);
+        opacity:0;
+    }
+}
+
+.animacaoBeneficio{
+    animation: moveBeneficio;
+    animation-timeline: view();
+}
+
+@keyframes moveBeneficio {
+    0% {
+        opacity: 0;
+        filter:blur(20px);
+
+    }
+
+    30%, 60% {
+        opacity: 1;
+        filter:blur(0px);
+    }
+
+    100% {
+        opacity:0;
+        filter:blur(20px);
+
+    }
+}
+
+.cards {
+    animation: moveCards;
+    animation-timeline: view();
+}
+
+@keyframes moveCards {
+    0% {
+        opacity: 0;
+        transform: translate(60px, -100px);
+    }
+    /* 40%, 45% {
+        opacity: 0.5;
+    } */
+    40%, 60% {
+        transform: translate(0px, 0px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(60px, -100px);
+        opacity:0;
+    }
+}

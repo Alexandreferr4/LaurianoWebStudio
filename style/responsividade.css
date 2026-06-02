@@ -1,0 +1,148 @@
+@media (max-width: 1140px) {
+
+    #bannerInicial {
+        height: auto;
+        padding: 150px 0;
+        
+    }
+
+    .botaoSeta {
+        display: none;
+    }
+
+    .containerInicial {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+    }
+
+    .containerInicialEsquerda {
+        width: 100%;
+    }
+
+    .containerInicialDireita {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .containerInicialDireito iframe {
+        width: 100%;
+    }
+
+    .containerInicialEsquerda h1{
+        font-size: 14vw;
+        padding-top: 20px;
+    }
+    .containerInicialEsquerda h2{
+        font-size: 3vw;
+        letter-spacing: 3.2vw;
+    }
+
+    .containerInicialBotoes {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+
+    .containerBeneficios {
+        justify-content: space-between;
+    }
+
+    .containerBeneficios h2{
+        font-size: 8vw;
+    }
+
+    .containerBeneficios .cards {
+        width: 48%;
+        margin-bottom: 4%;
+    }
+
+    .containerAprender {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .containerAprenderEsquerda{
+        position: relative;
+        top: auto;
+    }
+
+    .containerAprenderEsquerda h2 {
+        font-size: 8vw;
+    }
+
+}
+
+@media (max-width: 684px) {
+
+    .containerInicialEsquerda h2{
+        font-size: 4vw;
+    }
+
+    .containerInicialEsquerda p {
+        font-size: 16px;
+        padding: 16px 0px 28px;
+    }
+
+    .containerInicialDireito {
+        width: 100%;
+        height: 300px;
+        /* padding: 0px 0px; */
+    }
+
+    .containerInicialDireito iframe {
+        height: 100%;
+        /* width: auto; */
+    }
+
+    .botaoPrimario {
+        width: 100%;
+    }
+
+    .beneficios {
+        padding: 0px 0px 90px;
+    }
+
+    .containerBeneficios h2{
+        font-size: 12vw;
+    }
+
+    .cards h3{
+        font-size: 28px;
+    }
+
+    .containerBeneficios .cards {
+        width: 100%;
+    }
+
+    .aprender {
+        padding: 90px 0px;
+    }
+
+    .containerAprenderEsquerda h2 {
+        font-size: 12vw;
+    }
+
+    .containerAprenderEsquerda p {
+        padding: 16px 0px 28px;
+    }
+
+    .containerFaixa h2 {
+        font-size: 5vw;
+        font-weight: 500;
+    }
+
+    .footer-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+         gap: 20px;
+    }
+    .footer-col {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
